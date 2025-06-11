@@ -7,13 +7,10 @@ RUN curl  http://netfree.link/dl/unix-ca.sh | sh && update-ca-trust && \
         tcsh \
         csh \
         util-linux \
-        procps-ng \
         openssh-server \
         openssh-clients \
         fontconfig \
 		procps-ng \ 
-		file \ 
-		hostname \
         google-noto-sans-fonts && \
         dnf clean all && \
 		mkdir -p /var/run/sshd
