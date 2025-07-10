@@ -7,11 +7,11 @@ RUN curl  http://netfree.link/dl/unix-ca.sh | sh && update-ca-trust && \
         tcsh \
         csh \
         util-linux \
-	procps-ng \
         openssh-server \
         openssh-clients \
         fontconfig \
 		procps-ng \ 
+		gdb \
 		file \
 		hostname \
         google-noto-sans-fonts && \
